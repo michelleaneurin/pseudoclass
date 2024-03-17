@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclass</title>
+    <style>
+        div.box{
+            width: 100px;
+            height:100px;
+            background-color: aqua;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+        div.box:hover {
+            width: 100px;
+            height:100px;
+            background-color: yellowgreen;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+        div.circle:hover{
+            border-radius: 100px;
+            background-color: pink;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+         div{
+            width: 100px;
+            height:100px;
+            background-color: aqua;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+        body{
+            margin:10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+        <div class="box circle">2</div> 
+        <div>
+        <span class="box">3</span>
+        </div> 
+    
+
+</body>
+</html>
